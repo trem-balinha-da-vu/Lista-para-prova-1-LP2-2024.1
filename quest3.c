@@ -57,7 +57,6 @@ void preenche_com_pares(int **matriz, int linha, int coluna)
 
 void preenche_com_impares(int **matriz, int linha, int coluna)
 {
-    printf("\nentrou no preenche com impares\n");
     int num_impar = 1; 
 
     for (int i = 0; i < linha; i++)
@@ -86,7 +85,6 @@ void preenche_com_multiplos_de_dez(int **matriz, int linha, int coluna)
 
 void preenche_com_sequenciais(int **matriz, int linha, int coluna)
 {
-    printf("\nentrou no preenche sequenciais\n");
    int num_sequencial = 0;
 
     for (int i = 0; i < linha; i++)
